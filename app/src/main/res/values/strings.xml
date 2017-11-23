@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PowerGrid</string>
+    <string name="title_background_image">Background image for title screen</string>
+    <string name="new_text">New</string>
+    <string name="continue_text">Continue</string>
+    <string name="settings_text">Settings</string>
+</resources>
