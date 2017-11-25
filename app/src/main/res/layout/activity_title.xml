@@ -34,7 +34,8 @@
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
         android:textColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:onClick="createNewGame" />
 
     <TextView
         android:id="@+id/textViewContinue"
