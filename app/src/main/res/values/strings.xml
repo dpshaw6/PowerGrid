@@ -4,4 +4,14 @@
     <string name="new_text">New</string>
     <string name="continue_text">Continue</string>
     <string name="settings_text">Settings</string>
+    <string name="human_players_text">Human Players</string>
+    <string name="computer_players_text">Computer Players</string>
+
+    <string name="zero_text">0</string>
+    <string name="one_text">1</string>
+    <string name="two_text">2</string>
+    <string name="three_text">3</string>
+    <string name="four_text">4</string>
+    <string name="five_text">5</string>
+    <string name="six_text">6</string>
 </resources>
