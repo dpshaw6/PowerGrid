@@ -6,6 +6,14 @@
     <string name="settings_text">Settings</string>
     <string name="human_players_text">Human Players</string>
     <string name="computer_players_text">Computer Players</string>
+    <string name="computer_ai_text">Computer AI Level</string>
+    <string name="novice_ai_text">Novice</string>
+    <string name="average_ai_text">Average</string>
+    <string name="expert_ai_text">Expert</string>
+    <string name="map_name_text">Map</string>
+
+    <string name="map_us">USA</string>
+    <string name="map_germany">Germany</string>
 
     <string name="zero_text">0</string>
     <string name="one_text">1</string>

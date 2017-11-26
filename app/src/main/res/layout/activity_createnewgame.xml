@@ -78,6 +78,19 @@
     </RadioGroup>
 
     <TextView
+        android:id="@+id/textComputerAI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:text="@string/computer_ai_text"
+        android:textColor="@color/colorPGBlack"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/textComputerPlayers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -88,7 +101,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/computerPlayerCountRadioGroup"
@@ -146,4 +159,79 @@
 
     </RadioGroup>
 
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/aiRadioGroup"
+        android:layout_width="330dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="220dp"
+        android:checkedButton="@+id/radioButtonAverageAI"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonNoviceAI"
+            android:layout_width="100dp"
+            android:layout_height="42dp"
+            android:text="@string/novice_ai_text" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAverageAI"
+            android:layout_width="100dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/average_ai_text" />
+
+        <RadioButton
+            android:id="@+id/radioButtonExpertAI"
+            android:layout_width="100dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/expert_ai_text" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewMapName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:text="@string/map_name_text"
+        android:textColor="@color/colorPGBlack"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapRadioGroup"
+        android:layout_width="215dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="304dp"
+        android:checkedButton="@+id/radioButtonUSAMap"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonUSAMap"
+            android:layout_width="100dp"
+            android:layout_height="42dp"
+            android:text="@string/map_us" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGermanyMap"
+            android:layout_width="100dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/map_germany" />
+
+    </RadioGroup>
 </android.support.constraint.ConstraintLayout>
