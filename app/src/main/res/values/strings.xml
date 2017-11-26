@@ -12,6 +12,8 @@
     <string name="expert_ai_text">Expert</string>
     <string name="map_name_text">Map</string>
 
+    <string name="start_button">Start</string>
+
     <string name="map_us">USA</string>
     <string name="map_germany">Germany</string>
 
