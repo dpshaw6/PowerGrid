@@ -15,11 +15,11 @@
         android:layout_marginTop="16dp"
         android:text="@string/human_players_text"
         android:textColor="@color/colorPGBlack"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/humanPlayerCountRadioGroup"
@@ -84,11 +84,11 @@
         android:layout_marginTop="100dp"
         android:text="@string/computer_players_text"
         android:textColor="@color/colorPGBlack"
-        android:textSize="24dp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></TextView>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/computerPlayerCountRadioGroup"
@@ -97,7 +97,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="132dp"
-        android:checkedButton="@+id/radioButtonComputerPlayers0"
+        android:checkedButton="@+id/radioButtonComputerPlayers2"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -135,7 +135,7 @@
             android:layout_width="46dp"
             android:layout_height="42dp"
             android:layout_marginStart="15dp"
-            android:text="@string/five_text" />
+            android:text="@string/four_text" />
 
         <RadioButton
             android:id="@+id/radioButtonComputerPlayers5"
